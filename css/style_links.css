@@ -1,0 +1,36 @@
+h2 {
+    font-family: Montserrat;
+    color: rgb(243, 243, 243);
+    font-size: 17px;
+  }
+  .h22 {
+    text-decoration: none;
+    margin: 3%;
+    font-size: 17px;
+  }
+  .h22:hover {
+    text-decoration: underline;
+  }
+  .h23 {
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .h23:hover {
+    text-decoration: underline;
+  }
+  .h24 {
+    text-decoration: none;
+    margin: 3%;
+    font-size: 17px;
+  }
+  .h24:hover {
+    text-decoration: underline;
+  }
+  .h25 {
+    text-decoration: none;
+    margin: 5%;
+    font-size: 25px;
+  }
+  .h25:hover {
+    text-decoration: underline;
+  }

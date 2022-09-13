@@ -1,0 +1,25 @@
+/* contact */
+.social-icons {
+  padding: 3%;
+  text-align: center;
+  }  
+.social-icons li:hover {
+  opacity: 90%;
+}
+.social-icons li:active {
+  opacity: 70%
+}
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
+}
