@@ -1,36 +1,30 @@
-h2 {
-    font-family: Montserrat;
-    color: rgb(243, 243, 243);
-    font-size: 17px;
-  }
-  .h22 {
-    text-decoration: none;
-    margin: 3%;
-    font-size: 17px;
-  }
-  .h22:hover {
-    text-decoration: underline;
-  }
-  .h23 {
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .h23:hover {
-    text-decoration: underline;
-  }
-  .h24 {
-    text-decoration: none;
-    margin: 3%;
-    font-size: 17px;
-  }
-  .h24:hover {
-    text-decoration: underline;
-  }
-  .h25 {
-    text-decoration: none;
-    margin: 5%;
-    font-size: 25px;
-  }
-  .h25:hover {
-    text-decoration: underline;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstLink {
+  font-family: Montserrat;
+  color: rgb(233, 233, 233);
+  text-decoration: none;
+  padding-top: 3%;
+  font-size: 18px;
+}
+
+.firstLink:hover {
+  text-decoration: underline;
+  opacity: 90%;
+}
+
+.otherLink {
+  font-family: Montserrat;
+  color: rgb(233, 233, 233);
+  text-decoration: none;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.otherLink:hover {
+  text-decoration: underline;
+  opacity: 90%;
+}

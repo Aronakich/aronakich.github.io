@@ -1,29 +1,30 @@
-h2 {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstFile {
   font-family: Montserrat;
-  color: rgb(243, 243, 243);
-  font-size: 17px;
-}
-.h22 {
+  color: rgb(233, 233, 233);
   text-decoration: none;
-  margin: 3%;
-  font-size: 17px;
+  padding-top: 3%;
+  font-size: 18px;
 }
-.h22:hover {
+
+.firstFile:hover {
   text-decoration: underline;
+  opacity: 90%;
 }
-.h24 {
+
+.otherFile {
+  font-family: Montserrat;
+  color: rgb(233, 233, 233);
   text-decoration: none;
-  margin: 3%;
-  font-size: 17px;
+  padding: 2px;
+  font-size: 18px;
 }
-.h24:hover {
+
+.otherFile:hover {
   text-decoration: underline;
-}
-.h25 {
-  text-decoration: none;
-  margin: 5%;
-  font-size: 25px;
-}
-.h25:hover {
-  text-decoration: underline;
+  opacity: 90%;
 }
