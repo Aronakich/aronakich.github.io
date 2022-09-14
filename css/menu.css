@@ -10,6 +10,9 @@ body {
     text-align: center;
     background: rgb(37, 37, 37);
   }
+    .menu-main li:active {
+        opacity: 75%;
+}
   .menu-main li {display: inline-block;}
   .menu-main li:after {
     content: "|";
