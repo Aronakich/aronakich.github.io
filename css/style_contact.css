@@ -4,10 +4,10 @@
   text-align: center;
   }  
 .social-icons li:hover {
-  opacity: 90%;
+  opacity: 80%;
 }
 .social-icons li:active {
-  opacity: 70%
+  opacity: 60%
 }
 .social-icons li {
   display:inline-block;
