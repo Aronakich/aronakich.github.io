@@ -42,7 +42,7 @@ body {
     bottom: -5px;
     left: 50%;
     background: #57adfd;
-    transition: .6s;
+    transition: .7s;
   }
   .menu-main a:hover:before, .menu-main .current:before {left: 0;}
   .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
