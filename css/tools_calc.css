@@ -11,6 +11,13 @@
 .cont {
     margin-top: 3%;
 }
+.inputcalc {
+    font-family: Montserrat;
+    font-size: 20px;
+    background-color: var(--var-body-bg);
+    border: none;
+    color: var(--var-body-fc);
+}
 span{
         width: 24%; 
         font-size: 18px;
