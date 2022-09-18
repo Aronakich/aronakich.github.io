@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstLink {
+  font-family: Montserrat;
+  color: var(--var-body-fc);
+  text-decoration: none;
+  padding-top: 3%;
+  font-size: 18px;
+}
+
+.firstLink:hover {
+  text-decoration: underline;
+  opacity: 90%;
+}
+
+.otherLink {
+  font-family: Montserrat;
+  color: var(--var-body-fc);
+  text-decoration: none;
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.otherLink:hover {
+  text-decoration: underline;
+  opacity: 90%;
+}
