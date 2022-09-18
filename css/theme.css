@@ -1,0 +1,21 @@
+:root {
+    --var-body-bg: #242b30;
+    --var-body-fc: #f0f2f3;
+    --var-menu-fc: #fc4773;
+    --var-menu-fc2: #bd284c;
+    --var-menu-bg: rgba(255, 255, 255, 0.2);
+    --var-button: #f0eeee;
+    --var-body-fc-invert: #0b1016;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --var-body-bg: #f2f6fc;
+        --var-body-fc: #0b1016;
+        --var-menu-fc: #ba0d37;
+        --var-menu-fc2: #bd284c;
+        --var-menu-bg: rgba(20, 20, 20, 0.2);
+        --var-button: #1A1A1A;
+        --var-body-fc-invert: #f0f2f3;
+    }
+}

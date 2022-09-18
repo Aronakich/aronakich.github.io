@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    margin-top: 3%;
+}
+.row{
+    width:514px;
+    height:37.8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont {
+    margin-top: 3%;
+}
+span{
+        width: 24%; 
+        font-size: 18px;
+        line-height: 37px;
+        border-right: 1px solid var(--var-body-fc);
+        border-top: 1px solid var(--var-body-fc);
+        color: var(--var-body-fc);
+        font-family: Montserrat;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+}
+span:hover{
+    color: var(--var-body-fc);	
+    background:var(--var-body-fc-invert);
+    opacity:0.6;
+}
