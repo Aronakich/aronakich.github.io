@@ -8,7 +8,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --var-body-bg: #ffffff;
+        --var-body-bg: #f2f6fc;
         --var-body-fc: #0b1016;
         --var-menu-fc: #ba0d37;
         --var-menu-fc2: #bd284c;
