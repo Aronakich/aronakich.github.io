@@ -8,11 +8,23 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bg.css">
+    <link rel="stylesheet" href="css/checkbox.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
 
     <title>Aronakich</title>
 </head>
+
+<script>
+  const handleChange = (isChecked) => {
+    if (isChecked) {
+      document.body.setAttribute('light', '');
+    } else {
+      document.body.removeAttribute('light');
+    }
+  }
+</script>
+
 <body>
 
     <ul class="menu-main">
@@ -30,6 +42,9 @@
         <center><a class="otherFile" href="https://www.upload.ee/download/14501204/08f12fbc7b751ba8c89d/anti-loader.zip"><h2 class="otherFile">anti-loader.zip (432 KB)</h2></a></center>
           <center><a class="otherFile" href="https://www.upload.ee/download/14501774/28a73de51e101ba91abf/cleo-cryptor.zip"><h2 class="otherFile">cleo-cryptor.zip (127 KB)</h2></a></center>
       </div>
+
+      <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" onchange="handleChange(this.checked)">
+      <label for="happy">Светлая тема</label>  
 
     <!-- bg -->
     <div class="area" >

@@ -9,11 +9,23 @@
     <link rel="stylesheet" href="css/style_links.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/bg.css">
+    <link rel="stylesheet" href="css/checkbox.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
 
     <title>Aronakich</title>
 </head>
+
+<script>
+  const handleChange = (isChecked) => {
+    if (isChecked) {
+      document.body.setAttribute('light', '');
+    } else {
+      document.body.removeAttribute('light');
+    }
+  }
+</script>
+
     <ul class="menu-main">
         <li><a href="index.html">Файлы</a></li>
         <li><a href="links.html" class="current">Ссылки</a></li>
@@ -24,6 +36,9 @@
       <center><a class="firstLink" href="http://f0467642.xsph.ru/unprot.php"><h2 class="firstLink">Unprot</h2></a></center>
       <center><a class="otherLink" href="https://luainjector.sparebola.ru/"><h2 class="otherLink">Joiner</h2></a></center>
     
+      <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" onchange="handleChange(this.checked)">
+      <label for="happy">Светлая тема</label>
+
     <!-- bg -->
     <div class="area" >
         <ul class="circles">
