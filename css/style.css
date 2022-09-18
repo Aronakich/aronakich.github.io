@@ -5,7 +5,7 @@
 
 .firstFile {
   font-family: Montserrat;
-  color: rgb(233, 233, 233);
+  color: var(--var-body-fc);
   text-decoration: none;
   padding-top: 3%;
   font-size: 18px;
@@ -18,7 +18,7 @@
 
 .otherFile {
   font-family: Montserrat;
-  color: rgb(233, 233, 233);
+  color: var(--var-body-fc);
   text-decoration: none;
   padding-top: 1px;
   font-size: 18px;

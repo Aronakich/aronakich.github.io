@@ -1,5 +1,5 @@
 body {
-    background: rgb(37, 37, 37);
+    background: var(--var-body-bg);
 }
 
 /* menu */
@@ -8,7 +8,7 @@ body {
     margin: 40px 0 5px;
     padding: 25px 0 5px;
     text-align: center;
-    background: rgb(37, 37, 37);
+    background: var(--var-body-bg);
   }
   .menu-main li {display: inline-block;}
   .menu-main li:after {
@@ -31,7 +31,7 @@ body {
     transition: color .2s;
   }
   .menu-main a, .menu-main a:visited {color: #9d999d;}
-  .menu-main a.current, .menu-main a:hover{color: #7bbcfa;}
+  .menu-main a.current, .menu-main a:hover{color: var(--var-menu-fc);}
   .menu-main a:before,
   .menu-main a:after {
     content: "";
@@ -41,7 +41,7 @@ body {
     right: 50%;
     bottom: -5px;
     left: 50%;
-    background: #57adfd;
+    background: var(--var-menu-fc2);
     transition: .7s;
   }
   .menu-main a:hover:before, .menu-main .current:before {left: 0;}
