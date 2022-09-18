@@ -6,12 +6,14 @@
     --var-menu-bg: rgba(255, 255, 255, 0.2);
 }
 
-[light] {
-    --var-body-bg: #ffffff;
-    --var-body-fc: #0b1016;
-    --var-menu-fc: #ba0d37;
-    --var-menu-fc2: #bd284c;
-    --var-menu-bg: rgba(28, 28, 28, 0.2);
+@media (prefers-color-scheme: light) {
+    :root {
+        --var-body-bg: #ffffff;
+        --var-body-fc: #0b1016;
+        --var-menu-fc: #ba0d37;
+        --var-menu-fc2: #bd284c;
+        --var-menu-bg: rgba(28, 28, 28, 0.2);
+    }
 }
 
 .custom-checkbox {
