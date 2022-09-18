@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/tools_calc.css">
+    <link rel="stylesheet" href="css/bg.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+
+    <title>Aronakich</title>
+</head>
+<script type="text/javascript">
+    var str;
+    var endStr;
+     function OnClickClear () {// очистить
+        str = document.getElementById("output");
+        str.value="";
+    }
+     function OnClickNumber (num) {// Получить знак и значение
+        str = document.getElementById("output");
+        str.value = str.value + num;
+    }
+     function OnclickCalculate () {// Расчетный результат
+        str = document.getElementById("output");
+        str.value=eval(str.value);
+    }
+</script>
+
+<body>
+
+    <ul class="menu-main">
+        <li><a href="index.html">Файлы</a></li>
+        <li><a href="links.html">Ссылки</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="tools.html">Утилиты</a></li>
+      </ul>
+
+      <!-- calc -->
+      <div class="cont">
+        <div class="Calculator">
+            <div class="row">
+                    <input id="output" type="text" style="width:508px; height:35px">
+            </div>
+            <div class="row">
+                <span onclick="OnClickNumber('(')">(</span>
+                <span onclick="OnClickNumber(')')">)</span>
+                <span onclick="OnClickNumber('%')">%</span>
+                <span onclick="OnClickClear()">C</span>
+            </div>
+            <div class="row">
+                <span onclick="OnClickNumber(7)">7</span>
+                <span onclick="OnClickNumber(8)">8</span>
+                <span onclick="OnClickNumber(9)">9</span>
+                <span onclick="OnClickNumber('/')">/</span>
+            </div>
+            <div class="row">
+                <span onclick="OnClickNumber(4)">4</span>
+                <span onclick="OnClickNumber(5)">5</span>
+                <span onclick="OnClickNumber(6)">6</span>
+                <span onclick="OnClickNumber('*')">*</span>
+            </div>
+            <div class="row">
+                <span onclick="OnClickNumber(1)">1</span>
+                <span onclick="OnClickNumber(2)">2</span>
+                <span onclick="OnClickNumber(3)">3</span>
+                <span onclick="OnClickNumber('-')">-</span>
+            </div>
+            <div class="row">
+                <span onclick="OnClickNumber(0)">0</span>
+                <span onclick="OnClickNumber('.')">.</span>
+                <span onclick="OnclickCalculate()">=</span>
+                <span onclick="OnClickNumber('+')">+</span>
+            </div>	
+        </div>
+    </div>
+
+    
+
+    <!-- bg -->
+    <div class="area" >
+      <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
+    </div>
+
+    </body>
+</html>
