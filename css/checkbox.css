@@ -1,17 +1,17 @@
 :root {
-    --var-body-bg: rgb(37, 37, 37);
-    --var-body-fc: rgb(233, 233, 233);
-    --var-menu-fc: #7dbefc;
-    --var-menu-fc2: #429ef3;
+    --var-body-bg: #38444c;
+    --var-body-fc: #f0f2f3;
+    --var-menu-fc: #ba0d37;
+    --var-menu-fc2: #bd284c;
     --var-menu-bg: rgba(255, 255, 255, 0.2);
 }
 
 [light] {
-    --var-body-bg: rgb(255, 255, 255);
-    --var-body-fc: rgb(37, 37, 37);
-    --var-menu-fc: #5daffc;
-    --var-menu-fc2: #2b92f3;
-    --var-menu-bg: rgba(32, 32, 32, 0.2);
+    --var-body-bg: #ffffff;
+    --var-body-fc: #0b1016;
+    --var-menu-fc: #ba0d37;
+    --var-menu-fc2: #bd284c;
+    --var-menu-bg: rgba(54, 54, 54, 0.2);
 }
 
 .custom-checkbox {
