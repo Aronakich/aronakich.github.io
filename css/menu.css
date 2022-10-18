@@ -3,8 +3,8 @@ body {
 }
 
 ::selection {
-    color: #fcd79c;
-    background: #ffca60;
+    color: var(--var-body-fc);
+    background: var(--var-body-fc-invert);
 }
 
 /* menu */
