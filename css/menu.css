@@ -2,6 +2,11 @@ body {
     background: var(--var-body-bg);
 }
 
+::selection {
+    color: #fcd79c;
+    background: #ffca60;
+}
+
 /* menu */
 .menu-main {
     list-style: none;
