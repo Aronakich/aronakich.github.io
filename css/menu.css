@@ -36,7 +36,7 @@ body {
     transition: color .2s;
   }
   .menu-main a, .menu-main a:visited {color: #9d999d;}
-  .menu-main a.current, .menu-main a:hover{color: var(--var-menu-fc);}
+  .menu-main a.current, .menu-main a:hover{color: var(--var-menu-fc); font-weight: 600;}
   .menu-main a:before,
   .menu-main a:after {
     content: "";
