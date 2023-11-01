@@ -148,7 +148,7 @@ nav a:hover::after {
     background-color: #0078d7;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
     width: 120px; /* set a fixed width */
